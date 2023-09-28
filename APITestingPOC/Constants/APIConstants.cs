@@ -1,5 +1,7 @@
-﻿namespace APITestingPOC.Constants;
+﻿namespace APITestingPOC.Constants
+{
     public class ApiConstants
     {
-        public const string BaseUrl = "https://jsonplaceholder.typicode.com/";
+        public const string BASE_URL = "https://jsonplaceholder.typicode.com/";
     }
+}
