@@ -77,7 +77,7 @@ namespace APITestingPOC
             Assert.NotNull(jsonResponse);
             Assert.Equal(101, jsonResponse.id);
             Assert.Equal("Updated Title", jsonResponse.title);
-            Assert.True(true);
+            Assert.True(jsonResponse.completed);
 
         }
         [Fact]
